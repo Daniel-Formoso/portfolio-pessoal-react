@@ -1,0 +1,90 @@
+.containerContatoRodape {
+  font-family: var(--fonte-spartan);
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo a p {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: var(--fonte-spartan);
+  color: var(--branco);
+}
+
+.iconeLogo {
+  font-size: 60px;
+  color: var(--branco);
+  text-align: center;
+}
+
+.logo a:active {
+  opacity: 0.5;
+}
+
+.containerBotoesRodape {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.containerBotoesRodape button {
+  background-color: var(--cinza);
+  border: 0;
+}
+
+.containerBotoesRodape button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--preto);
+  font-size: 16px;
+  padding: 15px;
+}
+
+.iconeContato {
+  font-size: 20px;
+}
+
+.containerBotoesRodape a:active {
+  background-color: #94949444;
+}
+
+@media only screen and (min-width: 768px) {
+  .containerContatoRodape {
+    padding: 5% 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .containerContatoRodape {
+    padding: 0 20%;
+    margin: 2rem 0;
+  }
+
+  .logo a {
+    transition: 0.2s ease-in;
+  }
+
+  .logo a:hover {
+    opacity: 0.5;
+  }
+
+  .containerBotoesRodape button {
+    border: 1px solid var(--cinza);
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .containerContatoRodape {
+    padding: 0 30%;
+  }
+}

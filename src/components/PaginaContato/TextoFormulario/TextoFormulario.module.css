@@ -1,0 +1,20 @@
+.containerTextoFormulario {
+  padding: 40px 8% 1rem 8%;
+}
+
+.textoFormulario {
+  text-align: justify;
+  font-family: var(--fonte-roboto);
+}
+
+@media only screen and (min-width: 768px) {
+  .containerTextoFormulario {
+    padding: 60px 20% 3rem 20%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .containerTextoFormulario {
+    padding: 40px 30%;
+  }
+}
