@@ -20,7 +20,7 @@ const ApresentacaoContato = () => {
             animate={{ x: '0%' }}
             transition={{ type: 'spring', stiffness: 50 }}
           >
-            <p>Me diga um oi!</p>
+            <p>Diga-me um oi!</p>
           </motion.div>
         </div>
       </div>
