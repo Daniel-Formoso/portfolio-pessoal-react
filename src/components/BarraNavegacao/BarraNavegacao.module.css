@@ -1,0 +1,263 @@
+.botaoAbrirMenu {
+  font-size: 2.5rem;
+  color: var(--branco);
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.botaoAbrirMenu:active,
+.botaoFecharMenu:active {
+  opacity: 0.5;
+}
+
+.botaoFecharMenu {
+  background-color: transparent;
+  border: 0;
+  font-size: 2.5rem;
+  display: flex;
+  margin: 4% 8%;
+  cursor: pointer;
+}
+
+.botaoFecharMenu:active {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.menuHamburguer {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--branco);
+  z-index: 5000;
+}
+
+.abrirMenu {
+  display: block;
+}
+
+nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+}
+
+.containerTextoMenu {
+  margin: 0 -8%;
+  position: relative;
+  top: -85px;
+}
+
+.containerTextoMenu p {
+  font-size: 26px;
+  font-family: var(--fonte-spartan);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--preto);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--fonte-spartan);
+  transition: 0.3s;
+}
+
+nav a:active {
+  opacity: 0.5;
+}
+
+.containerContato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 8%;
+  font-family: var(--fonte-spartan);
+  margin-top: 10rem;
+}
+
+.containerContato button {
+  background-color: var(--cinza);
+  border: 0;
+}
+
+.containerContato button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--preto);
+  font-size: 16px;
+  padding: 15px;
+}
+
+.iconeContato {
+  font-size: 24px;
+}
+
+.containerContato a:active {
+  background-color: #94949444;
+}
+
+.containerRedes {
+  margin-top: 10px;
+  padding: 0% 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerRedes button {
+  border: 0;
+  background-color: var(--cinza);
+}
+
+.containerRedes button a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--preto);
+  font-family: var(--fonte-roboto);
+}
+
+.iconeRedes {
+  font-size: 24px;
+}
+
+.containerRedes a:active {
+  background-color: #94949444;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    padding-left: 12%;
+  }
+
+  .botaoAbrirMenu {
+    font-size: 3rem;
+  }
+
+  .containerContato {
+    margin: 0;
+  }
+
+  .containerContatoMenuMobile {
+    margin: 0 8%;
+    width: 50%;
+    margin-top: 10rem;
+  }
+
+  .containerContato,
+  .containerRedes {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .containerContatoMenuMobile {
+    width: 40%;
+    margin-top: 10rem;
+  }
+
+  .botaoFecharMenu {
+    margin: 3% 8% 2% 8%;
+  }
+
+.containerTextoMenu p {
+  font-size: 28px;
+}
+
+  .containerTextoMenu {
+    left: 10px;
+  }
+
+  nav {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .menuHamburguer {
+    width: 40%;
+    border-left: 2px solid var(--cinza);
+  }
+
+  .containerContatoMenuMobile {
+    margin: 3rem 0 0 0;
+    width: 100%;
+  }
+
+  .containerContato,
+  .containerRedes {
+    padding: 0 8%;
+  }
+
+  .botaoAbrirMenu:hover,
+  .botaoFecharMenu:hover {
+    opacity: 0.5;
+  }
+
+  .botaoFecharMenu {
+    margin: 4% 8% 2% 8%;
+  }
+
+  .containerTextoMenu {
+    position: relative;
+    top: -80px;
+    left: -5px;
+  }
+
+  nav ul li a:hover {
+    opacity: 0.5;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .containerTextoMenu p {
+    font-size: 40px;
+  }
+
+  .botaoFecharMenu {
+    margin-top: 8%;
+  }
+
+  .containerTextoMenu {
+    position: relative;
+    left: -5px;
+    margin: 0 -10%;
+  }
+
+  .containerTextoMenu p {
+    font-size: 30px;
+  }
+
+  .containerContatoMenuMobile {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .menuHamburguer {
+    width: 30%;
+  }
+}

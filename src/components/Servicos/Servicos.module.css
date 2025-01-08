@@ -1,0 +1,69 @@
+.containerServicos {
+  padding: 0 8%;
+  margin-top: 120px;
+}
+
+.tituloServicos {
+  font-family: var(--fonte-spartan);
+  font-size: 20px;
+}
+
+.textoServicos {
+  margin: 1rem 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--fonte-roboto);
+  font-weight: 400;
+  text-align: justify;
+}
+
+.containerBotao button {
+  width: 100%;
+  border: 0;
+  background-color: var(--cinza);
+  transition: 0.5s;
+}
+
+.containerBotao button a:active {
+  background-color: #94949444;
+}
+
+.containerBotao button a .iconeSeta {
+  font-size: 20px;
+}
+
+.containerBotao button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: var(--preto);
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.containerBotao button a p {
+  font-family: var(--fonte-roboto);
+  font-size: 16px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .containerServicos {
+    padding: 10px 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .containerServicos {
+    margin-bottom: 120px;
+    padding: 20px 20% 0 20%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .containerServicos {
+    padding: 30px 30% 0 30%;
+  }
+}

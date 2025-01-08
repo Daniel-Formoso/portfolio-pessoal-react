@@ -1,0 +1,71 @@
+.containerHabilidades {
+  margin: 80px 0;
+  padding: 0 8%;
+}
+
+.tituloConteudo {
+  font-size: 20px;
+  font-family: var(--fonte-spartan);
+}
+
+.textoConteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1rem;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.habilidades {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px;
+  box-shadow:
+    rgba(0, 0, 0, 0.07) 0px 1px 1px,
+    rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px,
+    rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.habilidades span {
+  display: flex;
+  font-size: 40px;
+}
+
+.habilidades p {
+  font-size: 16px;
+  font-family: var(--fonte-roboto);
+  font-weight: 400;
+}
+
+.habilidades span {
+  transition: 0.5s ease;
+}
+
+.habilidades span:active {
+  filter: drop-shadow(0 0 10px var(--hover-cor));
+}
+
+@media only screen and (min-width: 768px) {
+  .containerHabilidades {
+    padding: 0px 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .textoConteudo {
+    grid-template-columns:repeat(3, 1fr);
+  }
+
+  .habilidades span:hover {
+    filter: drop-shadow(0 0 10px var(--hover-cor));
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .containerHabilidades {
+    padding: 0 30%;
+  }
+}

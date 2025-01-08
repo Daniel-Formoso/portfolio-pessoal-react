@@ -1,0 +1,35 @@
+.containerConteudoSobreMim {
+  padding: 40px 8% 0 8%;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.tituloConteudo {
+  font-size: 20px;
+  font-family: var(--fonte-spartan);
+}
+
+.textoConteudo {
+  margin-top: 1rem;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--fonte-roboto);
+  font-weight: 400;
+}
+
+.textoConteudo p {
+  margin-bottom: 1rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .containerConteudoSobreMim {
+    padding: 40px 20% 0 20%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .containerConteudoSobreMim {
+    padding: 40px 30% 0 30%;
+  }
+}

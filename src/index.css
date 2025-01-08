@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fonte-spartan: 'League Spartan', serif;
+  --fonte-gothic: 'League Gothic', serif;
+  --fonte-roboto: 'Roboto', serif;
+
+  --preto: #000000;
+  --branco: #ffffff;
+  --cinza: #d9d9d9;
+}
+
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--branco);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--preto);
+}

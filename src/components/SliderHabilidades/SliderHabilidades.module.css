@@ -1,0 +1,77 @@
+.tituloMinhasHabilidades {
+  color: var(--preto);
+  font-size: 20px;
+  font-family: var(--fonte-spartan);
+  padding: 0 8%;
+  margin-bottom: 1rem;
+}
+
+.containerSlider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--preto);
+  height: 100px;
+  margin: 1rem 0;
+}
+
+.textoHabilidades {
+  padding: 0 8%;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 24px;
+  font-family: var(--fonte-roboto);
+}
+
+.iconeSlider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--branco);
+  font-size: 50px;
+  height: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-top: 100px;
+  }
+
+  .tituloMinhasHabilidades {
+    padding: 0%;
+  }
+
+  .textoHabilidades {
+    margin: 1rem 0;
+    padding: 0;
+  }
+
+  .flex {
+    padding: 0 20%;
+  }
+
+  .containerSlider {
+    height: 120px;
+  }
+
+  .iconeSlider {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    margin-top: 120px;
+  }
+
+  .flex {
+    padding: 0px 20%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .flex {
+    padding: 0px 30%;
+  }
+}

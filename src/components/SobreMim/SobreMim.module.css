@@ -1,0 +1,54 @@
+.containerSobreMim {
+  text-align: justify;
+  padding: 0 8%;
+  margin-bottom: 15%;
+  padding-top: 40px;
+}
+
+.tituloSobreMim {
+  font-size: 20px;
+  font-family: var(--fonte-spartan);
+}
+
+.textoSobreMim {
+  margin-top: 1rem;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--fonte-roboto);
+  font-weight: 400;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .containerSobreMim {
+    padding: 0 20%;
+    margin-bottom: 4%;
+    padding-top: 40px;
+  }
+
+  .textoSobreMim {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .containerSobreMim {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .containerSobreMim {
+    padding: 0% 20%;
+    margin-bottom: 4%;
+    padding-top: 40px;
+  }  
+}
+
+@media only screen and (min-width: 1920px) {
+  .containerSobreMim {
+    padding: 0% 30%;
+    margin-bottom: 2%;
+    padding-top: 40px;
+  }
+}
