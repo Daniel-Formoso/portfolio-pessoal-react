@@ -30,9 +30,9 @@ const Servicos = () => {
 
           <div className={styles.containerBotao}>
             <button>
-              <a href="/PaginaContato" className={stylesBotoes.hvrSweepToRight}>
+              <a href="/PaginaServicos" className={stylesBotoes.hvrSweepToRight}>
                 <GoArrowRight className={styles.iconeSeta} />
-                <p>Fale comigo</p>
+                <p>Veja meus serviços!</p>
               </a>
             </button>
           </div>

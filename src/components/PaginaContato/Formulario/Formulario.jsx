@@ -32,7 +32,7 @@ const Formulario = () => {
             <input
               type="email"
               name="email"
-              placeholder="emial@exemplo.com"
+              placeholder="email@exemplo.com"
               required
             />
           </label>

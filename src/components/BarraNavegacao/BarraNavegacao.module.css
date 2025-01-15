@@ -51,7 +51,7 @@ nav {
 .containerTextoMenu {
   margin: 0 -8%;
   position: relative;
-  top: -85px;
+  top: -115px;
 }
 
 .containerTextoMenu p {
@@ -184,9 +184,9 @@ nav a:active {
     margin: 3% 8% 2% 8%;
   }
 
-.containerTextoMenu p {
-  font-size: 28px;
-}
+  .containerTextoMenu p {
+    font-size: 28px;
+  }
 
   .containerTextoMenu {
     left: 10px;
@@ -224,7 +224,7 @@ nav a:active {
 
   .containerTextoMenu {
     position: relative;
-    top: -80px;
+    /* top: -120px; */
     left: -5px;
   }
 

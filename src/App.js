@@ -7,6 +7,7 @@ import Rodape from './components/Rodape/Rodape'
 import PaginaContato from './Pages/Contato/Contato'
 import PaginaProjetos from './Pages/Projetos/Projetos'
 import PoliticaPrivacidade from './Pages/PoliticaPrivacidade/Privacidade'
+import PaginaServicos from './Pages/Servicos/Servicos'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/PaginaSobreMim" element={<PaginaSobreMim />} />
         <Route path="/PaginaContato" element={<PaginaContato />} />
         <Route path="/PaginaProjetos" element={<PaginaProjetos />} />
+        <Route path="/PaginaServicos" element={<PaginaServicos />} />
         <Route path="/PaginaPoliticaPrivacidade" element={<PoliticaPrivacidade />} />
       </Routes>
       <Rodape />
