@@ -22,8 +22,7 @@ const ConteudoServicos = () => {
               Sua marca merece ser memorizada, não apenas mais uma na internet.
               Eu crio experiências digitais transformadoras, feitas para
               impactar e conquistar seu público de forma única. Seja um site
-              responsivo, uma landing page irresistível ou um e-commerce de alta
-              performance, meu objetivo é fazer seu negócio brilhar no mundo
+              responsivo, uma landing page irresistível ou até mesmo um e-commerce, meu objetivo é fazer seu negócio brilhar no mundo
               digital.
             </p>
 
