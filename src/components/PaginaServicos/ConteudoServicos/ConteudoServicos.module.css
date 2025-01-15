@@ -1,0 +1,59 @@
+.containerPrincipalServicos {
+  padding: 40px 8%;
+}
+
+.conteudoServicos {
+  text-align: justify;
+}
+
+.tituloServicos {
+  font-family: var(--fonte-spartan);
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.textoServicos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 24px;
+  font-family: var(--fonte-roboto);
+}
+
+.containerTabela {
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+}
+
+table th {
+  font-family: var(--fonte-spartan);
+  font-size: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+table td {
+  font-family: var(--fonte-roboto);
+  padding: 10px 5px;
+  /* border: 1px solid red; */
+}
+
+table .precos {
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .containerPrincipalServicos {
+    padding: 5% 20%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .containerPrincipalServicos {
+    padding: 2% 30%;
+  }
+}

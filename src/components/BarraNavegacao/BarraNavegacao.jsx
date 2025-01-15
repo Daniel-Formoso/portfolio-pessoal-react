@@ -9,6 +9,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 import styles from './BarraNavegacao.module.css'
+import Servicos from './../Servicos/Servicos';
 
 const BarraNavegacao = () => {
   const [abrirMenu, setAbrirMenu] = useState(false)
@@ -16,11 +17,11 @@ const BarraNavegacao = () => {
   const toggleMenu = () => {
     setAbrirMenu(!abrirMenu)
 
-    if (!abrirMenu) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style.overflow = 'block'
-    }
+    // if (!abrirMenu) {
+    //   document.body.style.overflow = 'hidden'
+    // } else {
+    //   document.body.style.overflow = 'block'
+    // }
   }
 
   return (
@@ -92,7 +93,7 @@ const BarraNavegacao = () => {
                     delay: 1.2,
                   }}
                 >
-                  <Link to="/PaginaProjetos">Projetos</Link>
+                  <Link to="/PaginaServicos">Serviços</Link>
                 </motion.li>
                 <motion.li
                   initial={{ y: '-1000%' }}
@@ -102,6 +103,18 @@ const BarraNavegacao = () => {
                     stiffness: 50,
                     ease: 'easeOut',
                     delay: 1.4,
+                  }}
+                >
+                  <Link to="/PaginaProjetos">Projetos</Link>
+                </motion.li>
+                <motion.li
+                  initial={{ y: '-1000%' }}
+                  animate={{ y: '0%' }}
+                  transition={{
+                    type: 'spring',
+                    stiffness: 50,
+                    ease: 'easeOut',
+                    delay: 1.6,
                   }}
                 >
                   <Link to="/PaginaContato">Contato</Link>
@@ -118,7 +131,7 @@ const BarraNavegacao = () => {
                     type: 'spring',
                     stiffness: 50,
                     ease: 'easeOut',
-                    delay: 1.6,
+                    delay: 1.8,
                   }}
                 >
                   <a
@@ -136,7 +149,7 @@ const BarraNavegacao = () => {
                     type: 'spring',
                     stiffness: 50,
                     ease: 'easeOut',
-                    delay: 1.8,
+                    delay: 2,
                   }}
                 >
                   <a
@@ -157,7 +170,7 @@ const BarraNavegacao = () => {
                     type: 'spring',
                     stiffness: 50,
                     ease: 'easeOut',
-                    delay: 2,
+                    delay: 2.2,
                   }}
                 >
                   <a
@@ -176,7 +189,7 @@ const BarraNavegacao = () => {
                     type: 'spring',
                     stiffness: 50,
                     ease: 'easeOut',
-                    delay: 2.2,
+                    delay: 2.4,
                   }}
                 >
                   <a
