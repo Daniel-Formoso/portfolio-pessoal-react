@@ -32,7 +32,7 @@ const Servicos = () => {
             <button>
               <a href="/PaginaServicos" className={stylesBotoes.hvrSweepToRight}>
                 <GoArrowRight className={styles.iconeSeta} />
-                <p>Veja meus serviços!</p>
+                <p>Veja meus serviços</p>
               </a>
             </button>
           </div>
