@@ -33,7 +33,7 @@ O site é dividido nas seguintes páginas:
 - **Design Responsivo**: Implementação da técnica **Mobile First**, garantindo uma experiência otimizada em dispositivos móveis e desktop. 📱💻
 
 ## Aesse o Portfólio:
-- [Deploy](https://danielformoso.com.br/)
+- [Deploy](https://portfolio-pessoal-react-psi.vercel.app/)
 
 ## Quer ver outros projetos? Acesse o meu GitHub!
 - [GitHub](https://github.com/Daniel-Formoso)  

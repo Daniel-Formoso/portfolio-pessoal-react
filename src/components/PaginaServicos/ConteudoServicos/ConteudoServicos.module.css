@@ -30,25 +30,24 @@ table {
 
 table th {
   font-family: var(--fonte-spartan);
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px 0;
   border-bottom: 1px solid black;
 }
 
 table td {
+  text-align: center;
   font-family: var(--fonte-roboto);
   padding: 10px 5px;
-  /* border: 1px solid red; */
-}
-
-table .precos {
-  font-weight: bold;
-  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
   .containerPrincipalServicos {
     padding: 5% 20%;
+  }
+
+  table th {
+    font-size: 20px;
   }
 }
 

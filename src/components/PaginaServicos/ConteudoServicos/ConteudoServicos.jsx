@@ -41,8 +41,7 @@ const ConteudoServicos = () => {
             </p>
 
             <p>
-              Confira a minha tabela de preços abaixo e escolha a opção que mais
-              se adapta às suas necessidades.
+              Confira meus serviços abaixo e escolha o que mais atende às suas necessidades.
             </p>
           </div>
         </motion.div>
@@ -58,25 +57,20 @@ const ConteudoServicos = () => {
             <thead>
               <tr>
                 <th>Serviços</th>
-                <th>Preços</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>Site Pessoal/Portfólio</td>
-                <td className={styles.precos}>R$1000,00</td>
               </tr>
               <tr>
                 <td>Site Institucional (Empresas)</td>
-                <td className={styles.precos}>R$1300,00</td>
               </tr>
               <tr>
                 <td>Landing Page</td>
-                <td className={styles.precos}>R$1000,00</td>
               </tr>
               <tr>
                 <td>E-commerce Simples</td>
-                <td className={styles.precos}>R$ 1600,00</td>
               </tr>
             </tbody>
           </table>
