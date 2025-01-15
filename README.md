@@ -31,3 +31,14 @@ O site é dividido nas seguintes páginas:
 - **Carrossel das Minhas Habilidades**: Utilizando **Swiper** para exibir minhas habilidades em um carrossel com loop de forma interativa e atraente. 🎠
 - **Animações Interativas**: Apliquei animações suaves com **Framer Motion** para tornar a experiência do usuário mais fluida. 🌀
 - **Design Responsivo**: Implementação da técnica **Mobile First**, garantindo uma experiência otimizada em dispositivos móveis e desktop. 📱💻
+
+## Aesse o Portfólio:
+- [Deploy](https://portfolio-pessoal-react-psi.vercel.app/)
+
+## Quer ver outros projetos? Acesse o meu GitHub!
+- [GitHub](https://github.com/Daniel-Formoso)  
+
+## Contatos:
+- E-mail: daniel.formoso100@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/danielformoso/)
+
