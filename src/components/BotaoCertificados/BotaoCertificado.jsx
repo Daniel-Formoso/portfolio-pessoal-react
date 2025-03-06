@@ -7,7 +7,7 @@ const BotaoCertificados = () => {
     <div className={styles.containerBotaoCertificados}>
       <button>
         <a
-          href="https://drive.google.com/drive/u/2/folders/1VXz-71R669YeBrVOmnqQUVlAXYYuvulR"
+          href="https://drive.google.com/drive/folders/1Y49AvV4PwgYStv3uX5TuRsdpPZU4_g0E"
           target="_blank"
           className={stylesBotoes.hvrSweepToRight}
         >
