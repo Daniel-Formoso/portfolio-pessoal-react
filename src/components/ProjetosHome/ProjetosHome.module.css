@@ -7,8 +7,12 @@
 }
 
 .projetoCard {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 700px;
   padding: 0% 8%;
+
 }
 
 .containerConteudoCard {

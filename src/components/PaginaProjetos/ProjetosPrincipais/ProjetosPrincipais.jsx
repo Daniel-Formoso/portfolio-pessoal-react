@@ -8,6 +8,15 @@ const ProjetosPrincipais = () => {
   const projetos = [
     {
       id: 1,
+      nome: 'Elite Gym - Landing Page',
+      imagem: '/assets/mockups/mockup-elite-gym.webp',
+      descricao:
+        'Um site fictício desenvolvido para uma academia, destacando seus serviços, planos e depoimentos. O projeto apresenta um design responsivo, com uma interface moderna e navegação intuitiva.',
+      site: 'https://elite-gym-eta.vercel.app/',
+      github: 'https://github.com/Daniel-Formoso/elite-gym',
+    },
+    {
+      id: 2,
       nome: 'Conversor de Moedas',
       imagem: '/assets/mockups/mockup-conversor.webp',
       descricao:
@@ -16,7 +25,7 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/conversor-moedas',
     },
     {
-      id: 2,
+      id: 3,
       nome: 'DermaCenter Louzada',
       imagem: '/assets/mockups/mockup-dermacenter.webp',
       descricao:
@@ -25,7 +34,7 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/dermacenter',
     },
     {
-      id: 3,
+      id: 4,
       nome: 'Formulário de Inscrição',
       imagem: '/assets/mockups/mockup-newsletter.webp',
       descricao:
@@ -34,7 +43,7 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/pagina-inscricao-newsletter',
     },
     {
-      id: 4,
+      id: 5,
       nome: 'Perfil de Links Sociais',
       imagem: '/assets/mockups/mockup-perfil-links.webp',
       descricao:
@@ -43,22 +52,13 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/perfil-links-sociais',
     },
     {
-      id: 5,
+      id: 6,
       nome: 'Portfólio Pessoal',
       imagem: '/assets/mockups/mockup-portfolio.webp',
       descricao:
         'Um portfólio simples e responsivo que exibe meus projetos de desenvolvimento front-end. O projeto destaca minhas habilidades com HTML, CSS e JavaScript, com foco em uma navegação intuitiva e design limpo.',
       site: 'https://meu-site-murex-chi.vercel.app/',
       github: 'https://github.com/Daniel-Formoso/meu-portfolio-pessoal',
-    },
-    {
-      id: 6,
-      nome: 'Site de um PetShop',
-      imagem: '/assets/mockups/mockup-pet-shop.webp',
-      descricao:
-        'Um site moderno para petshop que facilita a navegação entre serviços e produtos para pets. O projeto permite aos clientes agendar serviços como banho e tosa com facilidade.',
-      site: 'https://profound-puppy-868cb7.netlify.app/',
-      github: 'https://github.com/Daniel-Formoso/petshop',
     },
   ]
 

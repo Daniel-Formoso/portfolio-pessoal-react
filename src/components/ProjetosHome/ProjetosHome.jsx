@@ -8,6 +8,15 @@ const ProjetosHome = () => {
   const projetosHome = [
     {
       id: 1,
+      nome: 'Elite Gym - Landing Page',
+      imagem: '/assets/mockups/mockup-elite-gym.webp',
+      descricao:
+        'Um site fictício desenvolvido para uma academia, destacando seus serviços, planos e depoimentos. O projeto apresenta um design responsivo, com uma interface moderna e navegação intuitiva.',
+      site: 'https://elite-gym-eta.vercel.app/',
+      github: 'https://github.com/Daniel-Formoso/elite-gym',
+    },
+    {
+      id: 2,
       nome: 'Conversor de Moedas',
       imagem: '/assets/mockups/mockup-conversor.webp',
       descricao:
@@ -16,22 +25,13 @@ const ProjetosHome = () => {
       github: 'https://github.com/Daniel-Formoso/conversor-moedas',
     },
     {
-      id: 2,
+      id: 3,
       nome: 'DermaCenter Louzada',
       imagem: '/assets/mockups/mockup-dermacenter.webp',
       descricao:
         'Um site fictício desenvolvido para uma clínica dermatológica, com foco em exibir os serviços oferecidos, informações sobre os profissionais e uma interface limpa e moderna, priorizando a experiência do usuário.',
       site: 'https://famous-madeleine-da03a2.netlify.app/',
       github: 'https://github.com/Daniel-Formoso/dermacenter',
-    },
-    {
-      id: 3,
-      nome: 'Formulário de Inscrição',
-      imagem: '/assets/mockups/mockup-newsletter.webp',
-      descricao:
-        'Uma página de inscrição para newsletter com validação de e-mail. O projeto garante que apenas e-mails válidos sejam submetidos e oferece uma forma eficiente de coletar dados dos usuários para futuras comunicações.',
-      site: 'https://projeto-newsletter.netlify.app/',
-      github: 'https://github.com/Daniel-Formoso/pagina-inscricao-newsletter',
     },
   ]
 
