@@ -8,6 +8,15 @@ const ProjetosPrincipais = () => {
   const projetos = [
     {
       id: 1,
+      nome: 'Fink Estamparia - Landing Page',
+      imagem: '/assets/mockups/mockup-fink-estamparia.webp',
+      descricao:
+        'Landing page desenvolvida para a FINK Estamparia, apresentando seus produtos personalizados e facilitando o contato com os clientes. O projeto tem uma navegação simples e interface moderna.',
+      site: 'https://www.finkestamparia.com.br/',
+      github: 'https://github.com/Daniel-Formoso/finkestamparia',
+    },
+    {
+      id: 2,
       nome: 'Elite Gym - Landing Page',
       imagem: '/assets/mockups/mockup-elite-gym.webp',
       descricao:
@@ -16,7 +25,7 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/elite-gym',
     },
     {
-      id: 2,
+      id: 3,
       nome: 'Conversor de Moedas',
       imagem: '/assets/mockups/mockup-conversor.webp',
       descricao:
@@ -25,7 +34,7 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/conversor-moedas',
     },
     {
-      id: 3,
+      id: 4,
       nome: 'DermaCenter Louzada',
       imagem: '/assets/mockups/mockup-dermacenter.webp',
       descricao:
@@ -34,7 +43,7 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/dermacenter',
     },
     {
-      id: 4,
+      id: 5,
       nome: 'Formulário de Inscrição',
       imagem: '/assets/mockups/mockup-newsletter.webp',
       descricao:
@@ -43,7 +52,7 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/pagina-inscricao-newsletter',
     },
     {
-      id: 5,
+      id: 6,
       nome: 'Perfil de Links Sociais',
       imagem: '/assets/mockups/mockup-perfil-links.webp',
       descricao:
@@ -52,7 +61,7 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/perfil-links-sociais',
     },
     {
-      id: 6,
+      id: 7,
       nome: 'Portfólio Pessoal',
       imagem: '/assets/mockups/mockup-portfolio.webp',
       descricao:
