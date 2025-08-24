@@ -12,7 +12,11 @@
   justify-content: space-between;
   text-align: center;
   padding: 0% 8%;
+<<<<<<< HEAD
+  height: auto;
+=======
   height: 700px;
+>>>>>>> cb69e01f32892fcfe48c7d0d12dd1be7b644ae48
 }
 
 .containerConteudoCard {
@@ -34,9 +38,18 @@
 }
 
 .projetoImagem {
+<<<<<<< HEAD
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+
+.projetoCard img {
+  height: 400px;
+=======
   width: 100%;
   height: 400px;
   filter: grayscale(100%);
+>>>>>>> cb69e01f32892fcfe48c7d0d12dd1be7b644ae48
 }
 
 .projetoImagem:active {
