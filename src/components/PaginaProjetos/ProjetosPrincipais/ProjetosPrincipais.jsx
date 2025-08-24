@@ -8,6 +8,7 @@ const ProjetosPrincipais = () => {
   const projetos = [
     {
       id: 1,
+<<<<<<< HEAD
       nome: 'Fink Estamparia - Landing Page',
       imagem: '/assets/mockups/mockup-fink-estamparia.webp',
       descricao:
@@ -17,6 +18,8 @@ const ProjetosPrincipais = () => {
     },
     {
       id: 2,
+=======
+>>>>>>> cb69e01f32892fcfe48c7d0d12dd1be7b644ae48
       nome: 'Elite Gym - Landing Page',
       imagem: '/assets/mockups/mockup-elite-gym.webp',
       descricao:
@@ -25,7 +28,11 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/elite-gym',
     },
     {
+<<<<<<< HEAD
       id: 3,
+=======
+      id: 2,
+>>>>>>> cb69e01f32892fcfe48c7d0d12dd1be7b644ae48
       nome: 'Conversor de Moedas',
       imagem: '/assets/mockups/mockup-conversor.webp',
       descricao:
@@ -34,7 +41,11 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/conversor-moedas',
     },
     {
+<<<<<<< HEAD
       id: 4,
+=======
+      id: 3,
+>>>>>>> cb69e01f32892fcfe48c7d0d12dd1be7b644ae48
       nome: 'DermaCenter Louzada',
       imagem: '/assets/mockups/mockup-dermacenter.webp',
       descricao:
@@ -43,7 +54,11 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/dermacenter',
     },
     {
+<<<<<<< HEAD
       id: 5,
+=======
+      id: 4,
+>>>>>>> cb69e01f32892fcfe48c7d0d12dd1be7b644ae48
       nome: 'Formulário de Inscrição',
       imagem: '/assets/mockups/mockup-newsletter.webp',
       descricao:
@@ -52,7 +67,11 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/pagina-inscricao-newsletter',
     },
     {
+<<<<<<< HEAD
       id: 6,
+=======
+      id: 5,
+>>>>>>> cb69e01f32892fcfe48c7d0d12dd1be7b644ae48
       nome: 'Perfil de Links Sociais',
       imagem: '/assets/mockups/mockup-perfil-links.webp',
       descricao:
@@ -61,7 +80,11 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/perfil-links-sociais',
     },
     {
+<<<<<<< HEAD
       id: 7,
+=======
+      id: 6,
+>>>>>>> cb69e01f32892fcfe48c7d0d12dd1be7b644ae48
       nome: 'Portfólio Pessoal',
       imagem: '/assets/mockups/mockup-portfolio.webp',
       descricao:
