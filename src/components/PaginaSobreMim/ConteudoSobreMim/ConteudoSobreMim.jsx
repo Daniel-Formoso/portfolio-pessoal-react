@@ -17,7 +17,7 @@ const ConteudoSobreMim = () => {
         </div>
         <div className={styles.textoConteudo}>
           <p>
-            Sou estudante do 7º período de Sistemas de Informação, com foco em
+            Sou formado em Sistemas de Informação, com foco em
             desenvolvimento front-end. Tenho sólida experiência em HTML, CSS e
             JavaScript, criando interfaces responsivas e otimizadas para
             dispositivos móveis, sempre priorizando a experiência do usuário e a

@@ -19,7 +19,7 @@ Bem-vindo ao meu portfólio! Este site foi desenvolvido utilizando **React**, on
 O site é dividido nas seguintes páginas:
 
 1. **Home**: Página inicial com uma breve introdução sobre mim, meus principais projetos e links para redes sociais. 🏠
-2. **Quem Sou**: Uma seção dedicada a minha trajetória, formação acadêmica e habilidades. 📖
+2. **Quem Sou**: Uma seção dedicada à minha trajetória, formação já concluída em Sistemas de Informação e habilidades. 📖
 3. **Projetos**: Exibe os projetos que desenvolvi, com links para visualização ao vivo, tecnologias utilizadas e animações interativas. 📂
 4. **Serviços**: Apresenta os serviços que posso oferecer, detalhando como posso agregar valor à marca do cliente. 💼
 5. **Contato**: Informações para entrar em contato comigo, incluindo links para minhas redes sociais e um e-mail. 📧
