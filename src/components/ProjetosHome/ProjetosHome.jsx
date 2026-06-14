@@ -66,6 +66,7 @@ const ProjetosHome = () => {
                   <a
                     href={projeto.github}
                     target="_blank"
+                    rel="noreferrer"
                     className={stylesBotoes.hvrSweepToRight}
                   >
                     <IoCodeOutline className={styles.iconeBotoesCard} />
@@ -76,6 +77,7 @@ const ProjetosHome = () => {
                   <a
                     href={projeto.site}
                     target="_blank"
+                    rel="noreferrer"
                     className={stylesBotoes.hvrSweepToRight}
                   >
                     <IoIosEye className={styles.iconeBotoesCard} />
