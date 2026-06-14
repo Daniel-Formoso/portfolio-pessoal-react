@@ -43,7 +43,7 @@ const SliderHabilidades = () => {
           className={styles.container}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.2 }}
+          transition={{ duration: 1.5, delay: 0.8 }}
           viewport={{ once: true, amount: 0.1 }}
         >
           <div className={styles.flex}>
