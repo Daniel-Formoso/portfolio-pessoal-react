@@ -1,6 +1,5 @@
 import BotoesContatoRodape from '../BotoesRodape/BotoesRodape'
 import styles from './Rodape.module.css'
-import PoliticaPrivacidade from '../../Pages/PoliticaPrivacidade/Privacidade';
 
 const Rodape = () => {
   return (
