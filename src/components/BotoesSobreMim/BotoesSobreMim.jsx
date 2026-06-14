@@ -8,7 +8,7 @@ const BotoesSobreMim = () => {
     <div className={styles.containerBotaoCurriculo}>
       <button>
         <a
-          href="https://drive.google.com/file/d/1_lAW-cwWfrvahs3UQMB5-2-9ZOZNBM5M/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1_lAW-cwWfrvahs3UQMB5-2-9ZOZNBM5M/view?usp=sharing"
           target="_blank"
           className={stylesBotoes.hvrSweepToRight}
         >
