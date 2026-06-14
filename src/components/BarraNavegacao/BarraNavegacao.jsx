@@ -136,6 +136,7 @@ const BarraNavegacao = () => {
                   <a
                     href="mailto:daniel.formoso100@gmail.com"
                     className={stylesBotoes.hvrSweepToRight}
+                    rel="noreferrer"
                   >
                     <MdEmail className={styles.iconeContato} />
                     E-mail
@@ -154,6 +155,7 @@ const BarraNavegacao = () => {
                   <a
                     href="tel:+5521992379899"
                     className={stylesBotoes.hvrSweepToRight}
+                    rel="noreferrer"
                   >
                     <FaPhone className={styles.iconeContato} />
                     Telefone
@@ -175,6 +177,7 @@ const BarraNavegacao = () => {
                   <a
                     href="https://www.linkedin.com/in/danielformoso/"
                     target="_blank"
+                    rel="noreferrer"
                     className={stylesBotoes.hvrSweepToRight}
                   >
                     <FaLinkedin className={styles.iconeRedes} />
@@ -194,6 +197,7 @@ const BarraNavegacao = () => {
                   <a
                     href="https://github.com/Daniel-Formoso"
                     target="_blank"
+                    rel="noreferrer"
                     className={stylesBotoes.hvrSweepToRight}
                   >
                     <ImGithub className={styles.iconeRedes} />
