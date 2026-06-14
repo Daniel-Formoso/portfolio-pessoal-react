@@ -9,7 +9,6 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 import styles from './BarraNavegacao.module.css'
-import Servicos from './../Servicos/Servicos';
 
 const BarraNavegacao = () => {
   const [abrirMenu, setAbrirMenu] = useState(false)
