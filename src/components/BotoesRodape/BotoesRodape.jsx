@@ -29,6 +29,7 @@ const BotoesContatoRodape = () => {
           <a
             href="https://www.linkedin.com/in/danielformoso/"
             target="_blank"
+            rel="noreferrer"
             className={stylesBotoes.hvrSweepToRightRodape}
           >
             <FaLinkedin className={styles.iconeContato} />
@@ -39,6 +40,7 @@ const BotoesContatoRodape = () => {
           <a
             href="https://github.com/Daniel-Formoso"
             target="_blank"
+            rel="noreferrer"
             className={stylesBotoes.hvrSweepToRightRodape}
           >
             <ImGithub className={styles.iconeContato} />
