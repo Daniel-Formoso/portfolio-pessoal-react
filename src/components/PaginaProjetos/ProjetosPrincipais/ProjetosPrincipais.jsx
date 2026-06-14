@@ -52,7 +52,6 @@ const ProjetosPrincipais = () => {
       github: 'https://github.com/Daniel-Formoso/pagina-inscricao-newsletter',
     },
     {
-
       id: 6,
       nome: 'Perfil de Links Sociais',
       imagem: '/assets/mockups/mockup-perfil-links.webp',
@@ -103,6 +102,7 @@ const ProjetosPrincipais = () => {
                   <a
                     href={projeto.github}
                     target="_blank"
+                    rel="noreferrer"
                     className={stylesBotoes.hvrSweepToRight}
                   >
                     <IoCodeOutline className={styles.iconeBotoesCard} />
@@ -113,6 +113,7 @@ const ProjetosPrincipais = () => {
                   <a
                     href={projeto.site}
                     target="_blank"
+                    rel="noreferrer"
                     className={stylesBotoes.hvrSweepToRight}
                   >
                     <IoIosEye className={styles.iconeBotoesCard} />
@@ -153,6 +154,7 @@ const ProjetosPrincipais = () => {
                     <a
                       href={projeto.github}
                       target="_blank"
+                      rel="noreferrer"
                       className={stylesBotoes.hvrSweepToRight}
                     >
                       <IoCodeOutline className={styles.iconeBotoesCard} />
@@ -163,6 +165,7 @@ const ProjetosPrincipais = () => {
                     <a
                       href={projeto.site}
                       target="_blank"
+                      rel="noreferrer"
                       className={stylesBotoes.hvrSweepToRight}
                     >
                       <IoIosEye className={styles.iconeBotoesCard} />
