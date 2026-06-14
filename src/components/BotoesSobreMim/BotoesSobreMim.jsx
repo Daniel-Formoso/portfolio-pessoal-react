@@ -10,6 +10,7 @@ const BotoesSobreMim = () => {
         <a
           href="https://drive.google.com/file/d/1_lAW-cwWfrvahs3UQMB5-2-9ZOZNBM5M/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
           className={stylesBotoes.hvrSweepToRight}
         >
           <RiFolderDownloadLine className={styles.iconeCurriculo} />
