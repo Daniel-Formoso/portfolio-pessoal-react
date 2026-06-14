@@ -9,6 +9,7 @@ const BotaoCertificados = () => {
         <a
           href="https://drive.google.com/drive/folders/1Y49AvV4PwgYStv3uX5TuRsdpPZU4_g0E"
           target="_blank"
+          rel="noreferrer"
           className={stylesBotoes.hvrSweepToRight}
         >
           <RiMedalFill className={styles.iconeCertificado} />
